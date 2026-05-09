@@ -483,7 +483,7 @@ X-API-KEY: secret-api-key
 1. **Clone the repository**:
    ```bash
    git clone <repository-url>
-   cd retail-store-bill-calculator
+   cd retail-store-billing
    ```
 
 2. **Start the databases using Docker Compose**:
