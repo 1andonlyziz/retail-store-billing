@@ -6,8 +6,8 @@ INSERT INTO users(id,name,user_type)
 values (3,'AHMED','EMPLOYEE');
 
 INSERT INTO users(id, name, user_type, created_at, updated_at)
-VALUES (4, 'MOHAMMED', 'NORMAL',   '2023-01-01 00:00:00', '2023-01-01 00:00:00');
+VALUES (4, 'MOHAMMED', 'NORMAL',   '2023-01-01 01:00:00', '2023-01-01 00:00:00');
 INSERT INTO users(id, name, user_type, created_at, updated_at)
-VALUES (5, 'FAISAL',    'AFFILIATE', '2023-01-01 00:00:00', '2023-01-01 00:00:00');
+VALUES (5, 'FAISAL',    'AFFILIATE', '2023-01-01 02:00:00', '2023-01-01 02:00:00');
 INSERT INTO users(id, name, user_type, created_at, updated_at)
-VALUES (6, 'FARIS','EMPLOYEE',  '2023-01-01 00:00:00', '2023-01-01 00:00:00');
+VALUES (6, 'FARIS','EMPLOYEE',  '2023-01-01 03:00:00', '2023-01-01 03:00:00');
