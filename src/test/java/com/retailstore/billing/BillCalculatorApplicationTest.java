@@ -15,10 +15,6 @@ import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 class BillCalculatorApplicationTest {
 
     @Test
-    void contextLoads() {
-    }
-
-    @Test
     void mainMethodDoesNotThrow() {
         // Given
         String[] args = {};
