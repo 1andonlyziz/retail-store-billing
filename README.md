@@ -1,3 +1,5 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=1andonlyziz_retail-store-billing&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=1andonlyziz_retail-store-billing) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=1andonlyziz_retail-store-billing&metric=coverage)](https://sonarcloud.io/summary/new_code?id=1andonlyziz_retail-store-billing) [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=1andonlyziz_retail-store-billing&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=1andonlyziz_retail-store-billing) [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=1andonlyziz_retail-store-billing&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=1andonlyziz_retail-store-billing)
+
 # Bill Calculator Application
 
 A retail store billing system built with Spring Boot that calculates net payable amounts based on items purchased, user types, and configurable discount rules.
