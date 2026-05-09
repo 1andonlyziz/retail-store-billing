@@ -42,9 +42,6 @@ class BillCalculatorApplicationTest {
     );
 
     @Test
-    void loadContext() {}
-
-    @Test
     void mainMethodDoesNotThrow() {
         // Pass Testcontainer connection details as args so the fresh Spring Boot context
         // started by main() can connect to the same containers used by this test.
