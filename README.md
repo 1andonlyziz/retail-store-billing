@@ -267,7 +267,7 @@ The system applies **only one** percentage discount per transaction based on use
 ## Project Structure
 
 ```
-billing/
+retail-store-billing/
 │
 ├── src/
 │   ├── main/
