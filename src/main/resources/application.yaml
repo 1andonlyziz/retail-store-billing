@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: billing
+  profiles:
+    active: ${SPRING_PROFILE_ACTIVE:local}
+  datasource:
+    url: jdbc:postgresql://${PG_DB_HOST:localhost}:${PG_DB_PORT:5432}/${PG_DB_NAME:retail_db}
+    username:  ${PG_DB_USER:admin}
+    password:  ${PG_DB_PASSWORD:admin123}
+  mongodb:
+    uri: mongodb://${MG_DB_USER:admin}:${MG_DB_PASSWORD:admin123}@${MG_DB_HOST:localhost}:${MG_DB_PORT:27017}/${MG_DB_NAME:retail_db}?authSource=admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+configuration:
+  discount:
+    affiliate: ${AFFILIATE_DISCOUNT:0.10}
+    employee: ${EMPLOYEE_DISCOUNT:0.30}
+    loyal: ${LOYAL_CUSTOMER_DISCOUNT:0.05}
+    normal: ${NORMAL_CUSTOMER_DISCOUNT:0.00}
+  security:
+    api-key: ${API_KEY:secret-api-key}
