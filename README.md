@@ -391,7 +391,7 @@ All endpoints require API key authentication via the `X-API-KEY` header.
 
 Calculates the net payable amount for a bill with discount breakdown.
 
-**Endpoint**: `POST /api/bills/calculate`
+**Endpoint**: `POST /bill/calculate`
 
 **Headers**:
 ```
@@ -431,11 +431,16 @@ Content-Type: application/json
 
 Fetches an existing bill by ID.
 
-**Endpoint**: `GET /api/bills/{billId}`
+**Endpoint**: `GET /bill/retrieve`
 
 **Headers**:
 ```
 X-API-KEY: secret-api-key
+```
+
+**Params**:
+```
+bill-id: 69ff4135e52fe8c538fe5673
 ```
 
 **Response** (200 OK):
